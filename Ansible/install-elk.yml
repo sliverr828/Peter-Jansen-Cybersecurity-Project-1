@@ -32,6 +32,6 @@
       state: started
     # Please list the ports that ELK runs on
       published_ports:
-        - #TODO
-        - #TODO
-        - #TODO
+        - 5601 
+        - 9200 
+        - 5044 
