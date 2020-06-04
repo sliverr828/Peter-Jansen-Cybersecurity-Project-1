@@ -8,19 +8,19 @@
   - name: Install docker.io
     apt:
       force_apt_get: yes
-      name: #TODO
-      state: #TODO
+      name: docker.io
+      state: present
     # Use apt module
   - name: Install python-pip
     apt:
       force_apt_get: yes
-      name: #TODO
-      state: #TODO
+      name: python-pip
+      state: present
     # Use pip module
   - name: Install Docker module
     pip:
-      name: #TODO
-      state: #TODO
+      name: docker
+      state: present
     # Use command module
   - name: Increase virtual memory
     command: sysctl -w vm.max_map_count=262144
