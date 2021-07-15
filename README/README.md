@@ -79,6 +79,3 @@ SSH into the control node and follow the steps below:
 - Copy the pentest.yml file to etc/ansible.
 - Update the hosts file to include the ip of the new machine that you wish to be added. Be sure to update the correct list in the hosts file.  In this case, we are looking to update the list of machines controled by the pentest.yml playbook, so we would edit the webservers list.
 - Run the playbook, and navigate to 13.82.136.49:5601 to check that the installation worked as expected.
-
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
